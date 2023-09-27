@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  min-height: 100vh;
+  background-color: #ebedf5;
+}
+
+/* main sect loading page */
+main .logo {
+  padding: 30px 0;
+}
+main .logo h2 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+main .logo i {
+  color: #4fd066;
+  margin-right: 5px;
+  font-size: 22px;
+}
+main .container {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: calc(100vh - 90px);
+}
+@media (max-width: 930px) {
+main .container {
+  padding: 0 40px;
+
+  flex-direction: column;
+}
+main .container .img-div img{
+  width: 200px;
+  height: 300px;
+}
+}
+@media (max-width: 550px) {
+  main .container{
+  padding: 0 20px;
+
+  }
+  main .container .img-div img{
+    width: 180px;
+    height: 260px;
+  }
+main .container .loading-page-info h1 {
+  font-size: 30px !important;
+}
+}
+main .container .img-div img {
+  width: 400px;
+  height: calc(100vh - 120px);
+}
+main .container .loading-page-info {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+}
+main .container .loading-page-info h1 {
+  text-align: end;
+  font-size: 45px;
+}
+
+main .container .loading-page-info button {
+  background-color: #4fd066;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+main .container .loading-page-info button:hover {
+  background-color: #458b50;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

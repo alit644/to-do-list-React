@@ -1,0 +1,87 @@
+.allTasks{
+  margin: 20px;
+  flex: 1;
+
+}
+.allTasks .filters{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.allTasks .filters article{
+  padding: 4px 10px;
+  margin-left: 20px;
+  background-color: #EFEFF6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.allTasks .filters article:hover{
+  color: #0073D3;
+}
+.allTasks .filters .active{
+  color: #0073D3;
+
+}
+
+@media (max-width: 617px) {
+  .allTasks .filters{
+    padding: 6px;
+  }
+  .allTasks .filters article{
+    padding: 4px 8px;
+    margin-left: 6px;
+  }
+  }
+
+@media (max-width: 537px){
+  .allTasks .filters article{
+    font-size: 14px;
+    padding: 3px 4px;
+    margin-left: 3px;
+  }
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* width: 100%; */
+  min-width: 1000px;
+}
+
+
+th, td {
+  text-align: start;
+  border-bottom: 1px solid #EDF1F6;
+  transition: .3s;
+  padding: 10px;
+}
+th{
+  color: #585C6A;
+}
+td p{
+  margin: 0;
+}
+
+td:hover{
+  background-color: #EDF1F6;
+  cursor: pointer;
+  border: 1px solid #BEDCD5;
+}
+td ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+}
+td ul li{
+  list-style: circle;
+}
+
+@media (min-width:600px) {
+  .table-pernet::-webkit-scrollbar{
+    display: none;
+  }
+}

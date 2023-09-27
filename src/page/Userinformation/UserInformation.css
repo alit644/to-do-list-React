@@ -1,0 +1,157 @@
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.userPage{
+  background-color: #3A3939;
+  padding: 25px;
+  min-height: 100vh;
+}
+.information{
+  width: 45%;
+  margin: 0 auto;
+}
+@media (max-width: 770px) {
+.information{
+  width: 80%;
+}
+}
+@media (max-width: 400px) {
+  .information{
+    width: 94%;
+  }
+}
+.information .titleSection{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.information .titleSection input{
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  outline: 0;
+}
+.information .titleSection i{
+  cursor: pointer;
+}
+.information .titleSection input:focus{
+  outline: none;
+}
+
+/* completedTime */
+
+.userTasks{
+  margin-top: 60px;
+}
+.userTasks .completedTime{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.userTasks .completedTime label{
+  margin-left:6px;
+}
+.userTasks .userTask .subTask{
+
+}
+.userTasks .userTask .subTask div{
+  background-color: white;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+
+  padding: 15px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.userTasks .userTask .subTask div p {
+  margin: 0;
+}
+.userTasks .userTask .subTask div:hover{
+  background-color: #cfc5c518;
+  color: #fff;
+  border-left: 7px solid #1111118c;
+}
+.userTasks .userTask .subTask i{
+  color: #EDB5B5;
+  cursor: pointer;
+}
+
+.addNewTask{
+  background-color: white;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-top: 25px;
+
+  padding: 15px 14px;
+  border-radius: 8px;
+}
+.addNewTask input{
+  border: 0;
+  outline: 0;
+  margin-right: 10px;
+  padding: 8px 12px ;
+  border-radius: 8px;
+  background-color: #e2dede;
+}
+.addNewTask button{
+  border: 0;
+  background-color: teal;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* btns */
+ .btns{
+  text-align: center;
+}
+  button{
+  border: 0;
+  outline: 0;
+  padding: 6px 12px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #fff;
+  transition: .2s;
+
+}
+.addBtn{
+  background-color: #4FD066;
+  margin-bottom: 15px;
+
+}
+.addBtn:hover{
+  background-color: #4fd067ab;
+}
+.deleteBtn{
+  background-color: rgb(196, 67, 67);
+}
+.deleteBtn:hover{
+  background-color: rgb(224, 93, 93);
+
+}
+
+/* fa-right-from-bracket */
+.userPage .fa-right-from-bracket{
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.2s;
+}
+.userPage .fa-right-from-bracket:hover{
+  color: #0073D3;
+}
