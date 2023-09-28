@@ -96,6 +96,7 @@ const TwouserTasks = ({ user, id }) => {
           </article>
         </section>
       </div>
+      
     );
   }
 };

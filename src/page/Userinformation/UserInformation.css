@@ -57,9 +57,7 @@
 .userTasks .completedTime label{
   margin-left:6px;
 }
-.userTasks .userTask .subTask{
 
-}
 .userTasks .userTask .subTask div{
   background-color: white;
   display: flex;
@@ -91,7 +89,6 @@
   margin-bottom: 10px;
   align-items: center;
   margin-top: 25px;
-
   padding: 15px 14px;
   border-radius: 8px;
 }
@@ -111,6 +108,14 @@
   color: #fff;
   margin-right: 10px;
   cursor: pointer;
+}
+@media (max-width: 525px) {
+.addNewTask{
+  flex-direction: column;
+}
+.addNewTask button{
+  margin: 10px 0;
+}
 }
 /* btns */
  .btns{

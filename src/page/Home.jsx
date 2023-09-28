@@ -205,13 +205,13 @@ const Home = () => {
                 {" "}
                 <p>{user.displayName.slice(0, 2)}</p>
               </h3>
-              <article>
+              <article
+                onClick={() => {
+                  logOutBtn();
+                }}
+              >
                 <i className="fa-solid fa-arrow-right-from-bracket"></i>
-                <p
-                  onClick={() => {
-                    logOutBtn();
-                  }}
-                ></p>
+                <p></p>
               </article>
             </div>
           </section>

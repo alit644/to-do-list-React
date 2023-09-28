@@ -3,6 +3,7 @@
   flex: 1;
 
 }
+
 .allTasks .filters{
   display: flex;
   align-items: center;

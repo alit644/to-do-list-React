@@ -52,6 +52,11 @@ const Model = ({ closeModel, children }) => {
           0%{scale: 0;}
           100%{scale: 1;}
         }
+        @media (max-width: 540px) {
+        .modal {
+          width: 300px;
+        }
+        }
         
         `}
         </style>
